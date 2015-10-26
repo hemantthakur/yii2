@@ -23,6 +23,13 @@ if [ ! "$req"  ];then
 else
    echo "PHP is already in its latest version";
 fi
+echo "2 b>  *****************Checking for php...***********";
+req=`dpkg -l | grep 'php5' | awk '{print $2, $3}'`
+if [ ! "$req"  ];then
+   apt-get install -y php5;
+else
+   echo "PHP is already in its latest version";
+fi
 echo "3> *****************Checking for php-mysql...***********";
 req=`dpkg -l | grep 'php5-mysql' | awk '{print $2, $3}'`
 if [ ! "$req" ];then
