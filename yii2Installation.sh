@@ -89,6 +89,8 @@ echo "Open your browser and hit this url: http://localhost/Yii2Advance/frontend/
 echo "     Note:  URL IS CASE SENSTIVE  ";
 echo "     Thank you for using this script ";
 echo "     want to follow me on twitter: @hemant908thakur ";
+echo "     To edit your application goto your web root directory ie"
+echo "     cd /var/www/html/Yii2Advance"
 echo "****************************************************************";
 echo " ";
 echo " ";
